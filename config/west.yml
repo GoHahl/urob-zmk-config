@@ -47,11 +47,11 @@ manifest:
     - name: zmk-tri-state
       path: modules/zmk/tri-state
 
-    # Temporarily overload Zephyr until
-    # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
-    - name: zephyr
-      revision: v3.5.0+zmk-fixes
-      clone-depth: 1
+    # # Temporarily overload Zephyr until
+    # # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
+    # - name: zephyr
+    #   revision: v3.5.0+zmk-fixes
+    #   clone-depth: 1
 
     # - name: zephyr-extend
     #   path: boards/arm/eyelash_corne
